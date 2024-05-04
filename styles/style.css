@@ -7,12 +7,17 @@
 body {
     font-family:"Mali", cursive;
     height: 100vh;
-    background-image: radial-gradient(
-        rgb(2, 161, 167),
+    background-image: linear-gradient(
+        /*rgb(2, 161, 167),
         rgb(43, 96, 141),
-        rgb(109, 107, 245)
+        rgb(109, 107, 245)*/
+        rgb(255, 182, 193), /* LightPink */
+        rgb(255, 105, 180), /* Pink */
+        rgb(128, 0, 128) /* Purple */
+       
+        
         );
-    background-size: 10px 10px;
+    /*background-size: 10px 10px;*/
     display: flex;
     justify-content: center;
     align-items: center;
